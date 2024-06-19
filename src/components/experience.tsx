@@ -3,6 +3,7 @@ import { Experience } from '../common';
 import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { Section } from '../common';
+import { useActiveSection } from '../hooks';
 
 
 const experiences = [
@@ -38,7 +39,7 @@ const experiences = [
   },
 ];
 
-export function Experiences() {
+export function Experiences(props : React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>) {
 
   const [type,setType] = useState<"academic" | "professional">("professional");
 
@@ -57,9 +58,11 @@ export function Experiences() {
     }
   }, [type])
 
+  const [ref] = useActiveSection({ id : "experiences" });
+
   return (
-    <Section title="Experience" description="My journey in the academic & professional front" >
-      <div className='text-xl text-gray-500 flex gap-8 font-medium mb-12 w-fit mx-auto' >
+    <Section title="Experience" description="My journey in the academic & professional front" {...props} id='experiences' >
+      <div className='text-xl text-gray-500 flex gap-8 font-medium mb-12 w-fit mx-auto' ref={ref} >
         <button 
           className='flex items-center gao-1 hover:text-color-1 transition-colors duration-300' 
           onClick={() => setType("academic")} 

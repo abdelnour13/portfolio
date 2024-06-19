@@ -58,7 +58,7 @@ export function SkillsList(props : ISkillsList) {
                 </div>
             </div>
             {isOpen ? <div className="flex gap-3" >
-                <div className="text-transparent" >
+                <div className="text-transparent sm:block hidden" >
                     {props.icon}
                 </div>
                 <ul className="grow [*&>*]:mb-5" >

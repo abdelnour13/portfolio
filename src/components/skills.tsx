@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ISkillsCollection, SkillsList, Section } from "../common";
 import { RiBrainLine } from "react-icons/ri";
+import { useActiveSection } from "../hooks";
 
 const skillsProps : ISkillsCollection = {
     title : "AI & Data Science",
@@ -14,7 +15,7 @@ const skillsProps : ISkillsCollection = {
     ],
 }
 
-export function Skills() {
+export function Skills(props : React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>) {
 
     const [activeSkill,setActiveSkill] = useState<number | null>(null);
 
@@ -28,9 +29,11 @@ export function Skills() {
         }
     }
 
+    const [ref] = useActiveSection({ id : "skills" });
+
     return (
-        <Section title="Skills" description="My technical & miscellaneous skills" >
-            <div className="w-full grid grid-cols-2 gap-12" >
+        <Section title="Skills" description="My technical & miscellaneous skills" {...props} id="skills" >
+            <div className="w-full grid grid-cols-1 px-2 gap-12 sm:grid-cols-2 sm:px-0" ref={ref} >
                 <SkillsList {...skillsProps} icon={<RiBrainLine size={40} />} isOpen={activeSkill === 0} onOpenClick={onOpenClick(0)} />
                 <SkillsList {...skillsProps} icon={<RiBrainLine size={40} />} isOpen={activeSkill === 1} onOpenClick={onOpenClick(1)} />
                 <SkillsList {...skillsProps} icon={<RiBrainLine size={40} />} isOpen={activeSkill === 2} onOpenClick={onOpenClick(2)} />

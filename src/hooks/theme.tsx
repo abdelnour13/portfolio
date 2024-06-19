@@ -22,7 +22,7 @@ export function useTheme() : [Theme,(theme : Theme) => void] {
             changeTheme(theme === "dark" ? "dark" : "light");
         }
         
-    }, []);
+    });
 
     return [currentTheme,changeTheme]
 

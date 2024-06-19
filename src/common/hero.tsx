@@ -17,33 +17,35 @@ const keywords = [
 
 export function Hero() {
   return (
-    <div className="flex items-center py-16 gap-28 max-w-4xl m-auto">
+    <div className="flex items-center sm:py-16 sm:gap-28 max-w-4xl m-auto">
       <div className="flex items-center">
         <div className="text-color-1">
-          <ul className="flex-col [*&>*]:mb-6" >
+          <ul className="flex-col [*&>*]:mb-6 sm:mx-0 mx-4" >
             <li><a href="/" className="hover:text-color-1-hover" ><FiGithub size={20} /></a></li>
             <li><a href="/" className="hover:text-color-1-hover"><FiLinkedin size={20} /></a></li>
             <li><a href="/" className="hover:text-color-1-hover"><FiTwitter size={20} /></a></li>
           </ul>
         </div>
       </div>
-      <div className="flex justify-center max-w-2xl">
-        <div className="flex flex-grow gap-14">
-          <div className="w-6/12">
-            <div className="[*&>*]:mb-3 mb-16">
-              <h1 className="dark:text-color-2 text-color-3 text-4xl font-semibold">
+      <div className="flex justify-center max-w-2xl sm:mx-0 mx-4">
+        <div className="flex sm:flex-row flex-col-reverse flex-grow gap-14">
+          <div className="sm:w-6/12">
+            <div className="[*&>*]:mb-3 sm:mb-16 mb-4">
+              <h1 className="dark:text-color-2 text-color-3 sm:text-4xl text-2xl font-semibold">
                 Hi,i'm Abdelnour
               </h1>
-              <h3 className="text-gray-600 text-2xl">AI Engineer</h3>
+              <h3 className="text-gray-600 sm:text-2xl text-xl">AI Engineer</h3>
               <div className="text-gray-500">{keywords.join(" | ")}</div>
             </div>
-            <ContactMe className="mb-14" />
-            <a className="inline-flex gap-2 items-center py-4 text-color-1 font-medium hover:text-color-1-hover" href="/" >
-              <div>Download Resume</div>
-              <LuUpload size={20} />
-            </a>
+            <ContactMe className="sm:mb-14 mb-3" />
+            <div>
+              <a className="inline-flex gap-2 items-center py-4 text-color-1 font-medium hover:text-color-1-hover" href="/" >
+                <div>Download Resume</div>
+                <LuUpload size={20} />
+              </a>
+            </div>
           </div>
-          <div className="relative w-6/12">
+          <div className="relative sm:w-6/12">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
