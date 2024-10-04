@@ -11,7 +11,7 @@
     "email" : "ab.fellah@esi-sba.dz",
     "skills" : [
         {
-            "name" : "AI & Data Science",
+            "title" : "AI & Data Science",
             "yearsOfExperience" : 1,
             "skills" : [
                 {
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "name" : "Frontend Development",
+            "title" : "Frontend Development",
             "yearsOfExperience" : 3,
             "skills" : [
                 {
@@ -63,7 +63,7 @@
             ]
         },
         {
-            "name" : "Backend Development",
+            "title" : "Backend Development",
             "yearsOfExperience" : 2,
             "skills" : [
                 {
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "name" : "Tools",
+            "title" : "Tools",
             "yearsOfExperience" : 4,
             "skills" : [
                 {

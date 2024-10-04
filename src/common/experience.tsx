@@ -26,7 +26,7 @@ export function Experience(props: IExperienceProps) {
         <h3 className="font-medium text-lg mb-1">
           {props.title}
         </h3>
-        <p className="text-gray-500 mb-6">BrainSightAI</p>
+        <a className="text-gray-500 mb-6" href={props.link} >{props.at}</a>
         <div className="flex text-gray-500 items-center gap-1">
           <CiCalendar size={15} />
           <div className="text-xs">{props.from} - {props.to || 'Present'}</div>

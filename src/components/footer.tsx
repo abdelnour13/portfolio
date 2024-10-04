@@ -1,22 +1,28 @@
 import { FiGithub } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
+import { ContentContext } from "../context";
+import { useContext } from "react";
 
 export function Footer() {
+
+  const content = useContext(ContentContext);
+  const links = content?.social;
+
   return (
     <footer className="w-full bg-color-1 dark:bg-color-4-dark text-white py-16">
       <div className="w-fit mx-auto mb-12">
         <ul className="flex gap-8 sm:text-3xl text-2xl" >
-            <li><a href="/"><FiGithub /></a></li>
-            <li><a href="/"><FiLinkedin /></a></li>
-            <li><a href="/"><FiTwitter /></a></li>
-          </ul>
+          <li><a href={links?.github}><FiGithub /></a></li>
+          <li><a href={links?.linkedin}><FiLinkedin /></a></li>
+          <li><a href={links?.twitter}><FiTwitter /></a></li>
+        </ul>
       </div>
       <div className="w-fit mx-auto mb-12" >
         <ul className="flex sm:flex-nowrap flex-wrap justify-center sm:text-base text-sm sm:px-0 px-4 items-center gap-8">
           <li>
             <a
-              href="/"
+              href="/#home"
               className="hover:underline"
             >
               Home
@@ -24,7 +30,7 @@ export function Footer() {
           </li>
           <li>
             <a
-              href="/"
+              href="/#about"
               className="hover:underline"
             >
               About
@@ -32,7 +38,7 @@ export function Footer() {
           </li>
           <li>
             <a
-              href="/"
+              href="/#skills"
               className="hover:underline"
             >
               Skills
@@ -40,7 +46,7 @@ export function Footer() {
           </li>
           <li>
             <a
-              href="/"
+              href="/#experiences"
               className="hover:underline"
             >
               Experience
@@ -48,7 +54,7 @@ export function Footer() {
           </li>
           <li>
             <a
-              href="/"
+              href="/#projects"
               className="hover:underline"
             >
               Projects
@@ -56,7 +62,7 @@ export function Footer() {
           </li>
           <li>
             <a
-              href="/"
+              href="/#contact-me"
               className="hover:underline"
             >
               Contact Me
@@ -65,7 +71,7 @@ export function Footer() {
         </ul>
       </div>
       <div className="w-fit mx-auto text-xs" >
-        &copy; Abdelnour, 2024.
+        &copy; Abdelnour, {new Date(Date.now()).getFullYear()}.
       </div>
     </footer>
   );

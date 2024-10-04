@@ -1,10 +1,13 @@
 import { IoSend } from "react-icons/io5";
 import { Section } from "../common";
 import { useActiveSection } from "../hooks";
+import { ContentContext } from "../context";
+import { useContext } from "react";
 
 export function ContactMe(props : React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>) {
 
     const [ref] = useActiveSection({ id : "contact-me" });
+    const content = useContext(ContentContext);
 
     return (
         <Section title="Contact Me" description="Send me an email" {...props} id="contact-me" className="px-0" >
@@ -16,7 +19,7 @@ export function ContactMe(props : React.DetailedHTMLProps<React.HTMLAttributes<H
                         href="mailto:ab.fellah@esi-sba.dz" 
                         className="text-color-1 hover:text-color-1-hover hover:underline" 
                     >
-                        ab.fellah@esi-sba.dz
+                        {content?.email}
                     </a>.
                 </p>
                 <form className="[*&>*]:mb-6" >

@@ -1,52 +1,14 @@
-import { useEffect, useRef, useState } from 'react';
-import { Experience,IExperience } from '../common';
+import { useContext, useEffect, useRef, useState } from 'react';
+import { Experience } from '../common';
 import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { Section } from '../common';
 import { useActiveSection } from '../hooks';
-
-
-const experiences : IExperience[] = [
-  {
-    title: "Lead Machine Learning Engineer",
-    at: "BrainSightAI",
-    from: 2023,
-    to: null,
-    link : "/"
-  },
-  {
-    title: "Lead Machine Learning Engineer",
-    at: "BrainSightAI",
-    from: 2023,
-    to: null,
-    link : "/"
-  },
-  {
-    title: "Lead Machine Learning Engineer",
-    at: "BrainSightAI",
-    from: 2023,
-    to: null,
-    link : "/"
-  },
-  {
-    title: "Lead Machine Learning Engineer",
-    at: "BrainSightAI",
-    from: 2023,
-    to: null,
-    link : "/"
-  },
-  {
-    title: "Lead Machine Learning Engineer",
-    at: "BrainSightAI",
-    from: 2023,
-    to: null,
-    link : "/"
-  },
-];
+import { ContentContext } from '../context';
 
 export function Experiences(props : React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>) {
 
-  const [type,setType] = useState<"academic" | "professional">("professional");
+  const [type,setType] = useState<"academic" | "professional">("academic");
 
   const academicRef = useRef<HTMLButtonElement>(null);
   const profetionalRef = useRef<HTMLButtonElement>(null);
@@ -64,6 +26,9 @@ export function Experiences(props : React.DetailedHTMLProps<React.HTMLAttributes
   }, [type])
 
   const [ref] = useActiveSection({ id : "experiences" });
+  
+  const content = useContext(ContentContext);
+  const experiences = type === "academic" ? content?.experience.academic : content?.experience.professional;
 
   return (
     <Section title="Experience" description="My journey in the academic & professional front" {...props} id='experiences' >
@@ -87,7 +52,7 @@ export function Experiences(props : React.DetailedHTMLProps<React.HTMLAttributes
       </div>
       <div className="max-w-96 mx-auto relative">
         <div className="bg-color-1 w-[1px] h-full absolute left-2/4 -translate-x-[1px] top-0" />
-        {experiences.map((v,i) => <Experience direction={i % 2 === 0 ? "left" : "right"} {...v} />)}
+        {experiences?.map((v,i) => <Experience direction={i % 2 === 0 ? "left" : "right"} {...v} />)}
         <div className="w-4 aspect-square absolute bg-color-1 right-2/4 bottom-0 rounded-full translate-x-2/4 translate-y-2/4" />
       </div>
     </Section>
