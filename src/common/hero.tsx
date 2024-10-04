@@ -39,7 +39,9 @@ export function Hero() {
             </div>
             <ContactMe className="sm:mb-14 mb-3" />
             <div>
-              <a className="inline-flex gap-2 items-center py-4 text-color-1 font-medium hover:text-color-1-hover" href="/" >
+              <a className="inline-flex gap-2 items-center py-4 text-color-1 font-medium hover:text-color-1-hover" 
+                href="https://github.com/abdelnour13/abdelnour13/blob/main/cv.pdf?raw=true" 
+              >
                 <div>Download Resume</div>
                 <LuUpload size={20} />
               </a>
