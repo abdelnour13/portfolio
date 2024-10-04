@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
 
-interface IProject {
+export interface IProject {
     picture : string;
     title : string;
     description : string;

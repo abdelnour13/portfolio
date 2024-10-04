@@ -1,41 +1,46 @@
 import { useEffect, useRef, useState } from 'react';
-import { Experience } from '../common';
+import { Experience,IExperience } from '../common';
 import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { Section } from '../common';
 import { useActiveSection } from '../hooks';
 
 
-const experiences = [
+const experiences : IExperience[] = [
   {
     title: "Lead Machine Learning Engineer",
     at: "BrainSightAI",
     from: 2023,
     to: null,
+    link : "/"
   },
   {
     title: "Lead Machine Learning Engineer",
     at: "BrainSightAI",
     from: 2023,
     to: null,
+    link : "/"
   },
   {
     title: "Lead Machine Learning Engineer",
     at: "BrainSightAI",
     from: 2023,
     to: null,
+    link : "/"
   },
   {
     title: "Lead Machine Learning Engineer",
     at: "BrainSightAI",
     from: 2023,
     to: null,
+    link : "/"
   },
   {
     title: "Lead Machine Learning Engineer",
     at: "BrainSightAI",
     from: 2023,
     to: null,
+    link : "/"
   },
 ];
 
@@ -82,7 +87,7 @@ export function Experiences(props : React.DetailedHTMLProps<React.HTMLAttributes
       </div>
       <div className="max-w-96 mx-auto relative">
         <div className="bg-color-1 w-[1px] h-full absolute left-2/4 -translate-x-[1px] top-0" />
-        {experiences.map((v,i) => <Experience direction={i % 2 === 0 ? "left" : "right"} />)}
+        {experiences.map((v,i) => <Experience direction={i % 2 === 0 ? "left" : "right"} {...v} />)}
         <div className="w-4 aspect-square absolute bg-color-1 right-2/4 bottom-0 rounded-full translate-x-2/4 translate-y-2/4" />
       </div>
     </Section>

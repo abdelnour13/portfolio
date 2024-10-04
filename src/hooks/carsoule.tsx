@@ -13,7 +13,7 @@ export function useCarsoule(args : IUseCarsoule) : [number,() => void,() => void
             if (prev === args.elementsCount - 1) {
                 return prev;
             }
-            return prev + 1;
+            return (prev + 1) % args.elementsCount;
         })
     } 
     
@@ -22,7 +22,7 @@ export function useCarsoule(args : IUseCarsoule) : [number,() => void,() => void
             if (prev === 0) {
                 return prev;
             }
-            return prev - 1;
+            return (prev - 1) % args.elementsCount;
         })
     }
 

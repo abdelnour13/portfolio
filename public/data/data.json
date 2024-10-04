@@ -1,0 +1,150 @@
+{
+    "social" : {
+        "github" : "https://github.com/abdelnour13",
+        "linkedin" : "https://www.linkedin.com/in/fellah-abdelnour-57411a287/",
+        "twitter" : "https://x.com/AbdelnourF1372"
+    },
+    "cv" : {
+        "download" : "https://github.com/abdelnour13/abdelnour13/blob/main/cv.pdf?raw=true",
+        "view" : "https://github.com/abdelnour13/abdelnour13/blob/main/cv.pdf"
+    },
+    "email" : "ab.fellah@esi-sba.dz",
+    "skills" : [
+        {
+            "name" : "AI & Data Science",
+            "yearsOfExperience" : 1,
+            "skills" : [
+                {
+                    "name" : "PyTorch",
+                    "experience" : 95
+                },
+                {
+                    "name" : "sickit-learn",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Computer Vision",
+                    "experience" : 90
+                },
+                {
+                    "name" : "PySpark",
+                    "experience" : 90
+                },
+                {
+                    "name" : "Natural Language Processing",
+                    "experience" : 85
+                }
+            ]
+        },
+        {
+            "name" : "Frontend Development",
+            "yearsOfExperience" : 3,
+            "skills" : [
+                {
+                    "name" : "HTML",
+                    "experience" : 95
+                },
+                {
+                    "name" : "CSS",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Tailwind CSS",
+                    "experience" : 90
+                },
+                {
+                    "name" : "JavaScript",
+                    "experience" : 95
+                },
+                {
+                    "name" : "React",
+                    "experience" : 90
+                }
+            ]
+        },
+        {
+            "name" : "Backend Development",
+            "yearsOfExperience" : 2,
+            "skills" : [
+                {
+                    "name" : "Node.js",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Express js",
+                    "experience" : 95
+                },
+                {
+                    "name" : "SQL",
+                    "experience" : 95
+                },
+                {
+                    "name" : "No-SQL Databases",
+                    "experience" : 90
+                },
+                {
+                    "name" : "Fast API",
+                    "experience" : 90
+                }
+            ]
+        },
+        {
+            "name" : "Tools",
+            "yearsOfExperience" : 4,
+            "skills" : [
+                {
+                    "name" : "Git",
+                    "experience" : 95
+                },
+                {
+                    "name" : "GitHub",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Postman",
+                    "experience" : 95
+                },
+                {
+                    "name" : "VS Code",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Linux",
+                    "experience" : 90
+                }
+            ]
+        }
+    ],
+    "experience" : {
+        "academic" : [
+            {
+                "title" : "Master’s in Computer Science Engineering & Engineer Degree",
+                "at" : "Higher School of Computer Science (ESI)",
+                "link" : "https://www.esi-sba.dz/fr/",
+                "from" : 2022,
+                "to" : null
+            }
+        ],
+        "professional" : []
+    },
+    "projects" : [
+        {
+            "title" : "AI System for Breast Cancer Diagnosis",
+            "description" : "This project, conducted in 2024, is a collaboration between our team and the Anti-Cancer Center of Sidi Bel Abbes (CAC). The objective of this project was to develop an AI system capable of diagnosing breast cancer through the classification of gigapixel hematoxylin and eosin (H&E) histopathological images (whole slide images). We used the BRCAS dataset for this purpose.",
+            "link" : "https://github.com/Devnetly/Breast-Cancer-Classification",
+            "picture" : "https://raw.githubusercontent.com/Devnetly/Breast-Cancer-Classification/refs/heads/main/docs/Report/figures/approach.png"
+        },
+        {
+            "title" : "Image Captioning with Transformer-Based Architecture",
+            "description" : "This project is part of a university course on Natural Language Processing (NLP). The objective is to develop a model that can generate captions for images using a transformer-based architecture. We have utilized a Data-efficient Image Transformer (DeiT) for the encoder and a standard transformer decoder. The Flickr30k dataset was used for training, with additional text preprocessing and image resizing and augmentation techniques applied",
+            "link" : "https://github.com/Devnetly/image-captioning",
+            "picture" : "https://raw.githubusercontent.com/Devnetly/image-captioning/refs/heads/main/docs/figures/architecture-with-bg.png"
+        },
+        {
+            "title" : "Images Generation with Latent Diffusion models",
+            "description" : "In this project i implemented & trained latent diffusion model from scrach using PyTorch to generate images both unconditionally and conditional with different conditions such as : binary mask,color palette and attributes,the architecture was tested on the following datasets : Anime Faces dataset, Google cartoon faces and Bitmoji faces.",
+            "link" : "https://github.com/abdelnour13/images_generation_latent_diffusion_models",
+            "picture" : "https://raw.githubusercontent.com/abdelnour13/images_generation_latent_diffusion_models/refs/heads/main/experiments/vqvae_cartoon/images.png"
+        }
+    ]
+}
