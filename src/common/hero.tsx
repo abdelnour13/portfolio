@@ -72,7 +72,7 @@ export function Hero() {
                     fill="#50c5b6"
                   />
               <image
-                href="https://aksh-ai.com/assets/img/A_final.png"
+                href={content?.images.hero}
                 x="174.22"
                 y="132.64"
                 width="268.63"

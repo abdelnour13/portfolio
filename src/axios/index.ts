@@ -2,7 +2,7 @@ import axios from "axios";
 import { IContent } from "../context";
 
 const BASE_URL = "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public";
-const TOKEN = "GHSAT0AAAAAACPSTVFRH6S4VLTZELV5WBFCZYBD7OA"
+const TOKEN = "GHSAT0AAAAAACPSTVFQ5W6MCPZ6O5LUNM6KZYBGB6Q"
 
 export const instance = axios.create({
   baseURL: BASE_URL,

@@ -17,8 +17,6 @@ export function ContactMe(props : React.DetailedHTMLProps<React.HTMLAttributes<H
 
     const [ref] = useActiveSection({ id : "contact-me" });
 
-    console.log(process.env);
-
     const content = useContext(ContentContext);
 
     const createInfo = () => ({
@@ -40,12 +38,12 @@ export function ContactMe(props : React.DetailedHTMLProps<React.HTMLAttributes<H
         
         try {
 
-            await emailjs.send('service_fzeo5ol','template_9lzh20s', {
+            await emailjs.send(process.env['REACT_APP_SERVICE_ID']!,process.env['REACT_APP_TEMPLATE_ID']!, {
                 subject : info.subject,
                 name : info.name,
                 content : info.content,
                 replay_to : info.from
-            },{ publicKey:'9KAwsxV-gpa5LTITB' })
+            },{ publicKey: process.env['REACT_APP_TEMPLATE_ID']! })
 
             toast.success("Email sent successfully");
 
