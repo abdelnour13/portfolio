@@ -3,6 +3,10 @@ import { ISkillsCollection,IExperience,IProject } from "../common";
 
 export interface IContent {
     social : Record<string, string>;
+    images : {
+        hero : string;
+        about : string;
+    },
     cv : {
         download : string;
         view : string;
