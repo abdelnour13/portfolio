@@ -26,7 +26,9 @@ function SkillItem(props : Skill) {
             </div>
             <div className="relative" >
                 <div className={`h-1 absolute top-0 left-0 bg-color-1 opacity-30 w-full`} />
-                {<div className={`h-1 rounded-full bg-color-1-hover duration-1000 w-[${props.experience}%]`} />}
+                <div className="h-1 rounded-full bg-color-1-hover" style={{
+                    width : `${props.experience}%`,
+                }} />
             </div>
         </li>
     )
