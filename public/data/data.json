@@ -11,6 +11,28 @@
     "email" : "ab.fellah@esi-sba.dz",
     "skills" : [
         {
+            "title" : "Programming Languages",
+            "yearsOfExperience" : 4,
+            "skills" : [
+                {
+                    "name" : "Python",
+                    "experience" : 95
+                },
+                {
+                    "name" : "JavaScript/TypeScript",
+                    "experience" : 95
+                },
+                {
+                    "name" : "C/C++",
+                    "experience" : 90
+                },
+                {
+                    "name" : "Java",
+                    "experience" : 90
+                }
+            ]
+        },
+        {
             "title" : "AI & Data Science",
             "yearsOfExperience" : 1,
             "skills" : [

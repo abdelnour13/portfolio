@@ -3,6 +3,8 @@ import { FiLinkedin } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
 import { ContactMe } from "../common/contact-me";
 import { LuUpload } from "react-icons/lu";
+import { useContext } from "react";
+import { ContentContext } from "../context";
 
 
 const keywords = [
@@ -16,14 +18,17 @@ const keywords = [
 ];
 
 export function Hero() {
+
+  const content = useContext(ContentContext);
+
   return (
     <div className="flex items-center sm:py-16 sm:gap-28 max-w-4xl m-auto">
       <div className="flex items-center">
         <div className="text-color-1">
           <ul className="flex-col [*&>*]:mb-6 sm:mx-0 mx-4" >
-            <li><a href="/" className="hover:text-color-1-hover" ><FiGithub size={20} /></a></li>
-            <li><a href="/" className="hover:text-color-1-hover"><FiLinkedin size={20} /></a></li>
-            <li><a href="/" className="hover:text-color-1-hover"><FiTwitter size={20} /></a></li>
+            <li><a href={content?.social["github"]} className="hover:text-color-1-hover" ><FiGithub size={20} /></a></li>
+            <li><a href={content?.social["linkedin"]} className="hover:text-color-1-hover"><FiLinkedin size={20} /></a></li>
+            <li><a href={content?.social["twitter"]} className="hover:text-color-1-hover"><FiTwitter size={20} /></a></li>
           </ul>
         </div>
       </div>
