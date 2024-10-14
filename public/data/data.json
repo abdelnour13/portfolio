@@ -202,7 +202,7 @@
             "title" : "Images Generation with Latent Diffusion models",
             "description" : "In this project i implemented & trained latent diffusion model from scrach using PyTorch to generate images both unconditionally and conditional with different conditions such as : binary mask,color palette and attributes,the architecture was tested on the following datasets : Anime Faces dataset, Google cartoon faces and Bitmoji faces.",
             "link" : "https://github.com/abdelnour13/images_generation_latent_diffusion_models",
-            "picture" : "https://raw.githubusercontent.com/abdelnour13/images_generation_latent_diffusion_models/refs/heads/main/experiments/vqvae_cartoon/images.png"
+            "picture" : "https://raw.githubusercontent.com/abdelnour13/images_generation_latent_diffusion_models/refs/heads/main/demo/demo.png"
         }
     ]
 }
