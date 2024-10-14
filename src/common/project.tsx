@@ -21,6 +21,7 @@ export function Project(props : IProject) {
                         className="sm:text-base text-sm inline-flex gap-2 bg-color-1 sm:p-3 p-2 rounded text-white items-center hover:bg-color-1-hover" 
                         href={props.link} 
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <div>View</div>
                         <FaArrowRight />
