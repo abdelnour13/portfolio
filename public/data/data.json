@@ -5,8 +5,8 @@
         "twitter" : "https://x.com/AbdelnourF1372"
     },
     "images" : {
-        "hero" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/A_final.png?token=GHSAT0AAAAAACPSTVFRAAYOM7CWYMTY53LYZYBFU2Q",
-        "about" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/me.png?token=GHSAT0AAAAAACPSTVFQ5D7MP46OTOTZVA3EZYBFVIA"
+        "hero" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/A_final.png",
+        "about" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/me.png"
     },
     "cv" : {
         "download" : "https://github.com/abdelnour13/abdelnour13/blob/main/cv.pdf?raw=true",
@@ -151,7 +151,22 @@
                 "to" : null
             }
         ],
-        "professional" : []
+        "professional" : [
+            {
+                "title" : "Networking Intern",
+                "at" : "Algérie Télécom",
+                "link" : "https://www.esi-sba.dz/fr/",
+                "from" : "03-09-2023",
+                "to" : "21-09-2023"
+            },
+            {
+                "title" : "Data Science Intern",
+                "at" : "Centre Anti-Cancer Cac - Sidi Bel Abbes",
+                "link" : "https://www.esi-sba.dz/fr/",
+                "from" : "Mars 2024",
+                "to" : "June 2024"
+            }
+        ]
     },
     "projects" : [
         {
