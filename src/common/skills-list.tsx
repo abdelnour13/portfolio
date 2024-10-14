@@ -61,8 +61,8 @@ export function SkillsList(props : ISkillsList) {
                 </div>
             </div>
             {isOpen ? <div className="flex gap-3" >
-                <div className="text-transparent sm:block hidden" >
-                    {props.icon}
+                <div className="sm:block hidden" >
+                    <Icon icon={(props.icon || "lucide:brain")} className="text-4xl text-transparent" />
                 </div>
                 <ul className="grow [*&>*]:mb-5" >
                     {props.skills.map((v) => <SkillItem {...v} />)}
