@@ -170,6 +170,12 @@
     },
     "projects" : [
         {
+            "title" : "Email Spam Classification using semi-supervised learning",
+            "description" : "This repository contains a machine learning model for detecting spam emails using Natural Language Processing techniques and Semi-supervised learning, such as Label Propagation, Label Spreading and Self-Learning. The goal is to create an effective and efficient spam detection system that can classify emails as spam or non-spam with high accuracy.",
+            "link" : "https://github.com/abdelnour13/email_spam_ssl",
+            "picture" : "https://raw.githubusercontent.com/abdelnour13/email_spam_ssl/refs/heads/main/demo.png"
+        },
+        {
             "title" : "AI System for Breast Cancer Diagnosis",
             "description" : "This project, conducted in 2024, is a collaboration between our team and the Anti-Cancer Center of Sidi Bel Abbes (CAC). The objective of this project was to develop an AI system capable of diagnosing breast cancer through the classification of gigapixel hematoxylin and eosin (H&E) histopathological images (whole slide images). We used the BRCAS dataset for this purpose.",
             "link" : "https://github.com/Devnetly/Breast-Cancer-Classification",
