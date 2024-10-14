@@ -177,7 +177,7 @@
         },
         {
             "title" : "Image Captioning with Transformer-Based Architecture",
-            "description" : "This project is part of a university course on Natural Language Processing (NLP). The objective is to develop a model that can generate captions for images using a transformer-based architecture. We have utilized a Data-efficient Image Transformer (DeiT) for the encoder and a standard transformer decoder. The Flickr30k dataset was used for training.",
+            "description" : "This project is part of a university course on NLP. The objective is to develop a model that can generate captions for images using a transformer-based architecture. We have utilized a DeiT for the encoder and a standard transformer decoder. The Flickr30k dataset was used for training.",
             "link" : "https://github.com/Devnetly/image-captioning",
             "picture" : "https://raw.githubusercontent.com/Devnetly/image-captioning/refs/heads/main/docs/figures/architecture-with-bg.png"
         },

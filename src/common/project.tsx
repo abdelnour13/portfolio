@@ -15,7 +15,7 @@ export function Project(props : IProject) {
                     <img src={props.picture} className="object-cover h-full" alt="project" />
                 </div>
                 <div className="sm:w-6/12" >
-                    <h3  className="sm:text-xl text-lg font-semibold mb-3" >{props.title}</h3>
+                    <h3  className="sm:text-xl text-3xl font-semibold mb-3" >{props.title}</h3>
                     <p className="text-gray-500 mb-4 sm:text-base text-sm" >{props.description}</p>
                     <a 
                         className="sm:text-base text-sm inline-flex gap-2 bg-color-1 sm:p-3 p-2 rounded text-white items-center hover:bg-color-1-hover" 
