@@ -10,9 +10,9 @@ export interface IProject {
 export function Project(props : IProject) {
     return (
         <div className="sm:px-4" >
-            <div className="flex-col sm:flex-row flex rounded-2xl items-center gap-8 sm:p-4 dark:bg-color-1 sm:dark:bg-opacity-10 dark:bg-opacity-0">
-                <div className="flex items-center sm:w-6/12 sm:py-4" >
-                    <img src={props.picture} className="w-full" alt="project" />
+            <div className="flex-col sm:flex-row flex items-stretch rounded-2xl gap-8 sm:p-4 dark:bg-color-1 sm:dark:bg-opacity-10 dark:bg-opacity-0">
+                <div className="flex sm:w-6/12 sm:py-4 items-center" >
+                    <img src={props.picture} className="object-cover h-full" alt="project" />
                 </div>
                 <div className="sm:w-6/12" >
                     <h3  className="sm:text-xl text-lg font-semibold mb-3" >{props.title}</h3>

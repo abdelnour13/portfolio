@@ -26,7 +26,7 @@ export function Experience(props: IExperienceProps) {
         <h3 className="font-medium text-lg mb-1">
           {props.title}
         </h3>
-        <a className="text-gray-500 mb-6" href={props.link} target="_blank" rel="noreferrer" >
+        <a className="text-gray-500 mb-6 underline" href={props.link} target="_blank" rel="noreferrer" >
           {props.at}
         </a>
         <div className="flex text-gray-500 items-center gap-1">
