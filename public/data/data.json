@@ -177,8 +177,8 @@
         {
             "title" : "Email Spam Classification using semi-supervised learning",
             "description" : "This repository contains a machine learning model for detecting spam emails using Natural Language Processing techniques and Semi-supervised learning, such as Label Propagation, Label Spreading and Self-Learning. The goal is to create an effective and efficient spam detection system that can classify emails as spam or non-spam with high accuracy.",
-            "link" : "https://github.com/abdelnour13/email_spam_ssl",
-            "picture" : "https://raw.githubusercontent.com/abdelnour13/email_spam_ssl/refs/heads/main/demo.png"
+            "link" : "https://github.com/Devnetly/email-spam-classification",
+            "picture" : "https://raw.githubusercontent.com/Devnetly/email-spam-classification/refs/heads/main/demo.png"
         },
         {
             "title" : "AI System for Breast Cancer Diagnosis",
@@ -191,6 +191,12 @@
             "description" : "This project is part of a university course on NLP. The objective is to develop a model that can generate captions for images using a transformer-based architecture. We have utilized a DeiT for the encoder and a standard transformer decoder. The Flickr30k dataset was used for training.",
             "link" : "https://github.com/Devnetly/image-captioning",
             "picture" : "https://raw.githubusercontent.com/Devnetly/image-captioning/refs/heads/main/docs/figures/architecture-with-bg.png"
+        },
+        {
+            "title" : "Snake AI With Deep-Q-Learning",
+            "description" : "This project implements a Snake AI using the Deep Q-Learning algorithm. The goal is to create an intelligent agent capable of playing the Snake game, making decisions based on its understanding of the game environment to maximize its score.",
+            "link" : "https://github.com/abdelnour13/Snake-AI-Deep-Q-Learning",
+            "picture" : "https://raw.githubusercontent.com/abdelnour13/Snake-AI-Deep-Q-Learning/refs/heads/main/demo/demo.png"
         },
         {
             "title" : "Images Generation with Latent Diffusion models",
