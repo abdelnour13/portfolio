@@ -146,7 +146,7 @@
             {
                 "title" : "Master’s in Computer Science Engineering & Engineer Degree",
                 "at" : "Higher School of Computer Science (ESI)",
-                "link" : "https://github.com/abdelnour13/portfolio/blob/main/public/data/internships/algerie_telecom.pdf",
+                "link" : "https://www.esi-sba.dz/fr/",
                 "from" : 2022,
                 "to" : null
             }
@@ -155,14 +155,14 @@
             {
                 "title" : "Networking Intern",
                 "at" : "Algérie Télécom",
-                "link" : "https://github.com/abdelnour13/portfolio/blob/main/public/data/internships/cac.pdf",
+                "link" : "https://github.com/abdelnour13/portfolio/blob/main/public/data/internships/algerie_telecom.pdf",
                 "from" : "03-09-2023",
                 "to" : "21-09-2023"
             },
             {
                 "title" : "Data Science Intern",
                 "at" : "Centre Anti-Cancer Cac - Sidi Bel Abbes",
-                "link" : "https://www.esi-sba.dz/fr/",
+                "link" : "https://github.com/abdelnour13/portfolio/blob/main/public/data/internships/cac.pdf",
                 "from" : "Mars 2024",
                 "to" : "June 2024"
             }
