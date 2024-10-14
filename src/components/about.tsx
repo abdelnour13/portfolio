@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import { ContactMe,Section } from "../common";
+import { ContactMe, Section } from "../common";
 import { ContentContext } from "../context";
 import { useActiveSection } from "../hooks";
 
-export function About(props : React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>) {
+export function About(props: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>) {
 
-    const [ref] = useActiveSection({ id : "about" });
+    const [ref] = useActiveSection({ id: "about" });
     const content = useContext(ContentContext);
 
     return (
@@ -16,7 +16,13 @@ export function About(props : React.DetailedHTMLProps<React.HTMLAttributes<HTMLE
                 </div>
                 <div className="sm:w-7/12" >
                     <p className="text-gray-500 max-w-[35ch] mb-4" >
-                        I am a passionate & proactive human with strong expertise and experience of 3+ years in Machine/Deep Learning, Software Development, Computer Vision, Natural Language Processing, & Full-Stack Web Development. I am currently leading the Machine Learning team at BrainSightAI to build an AI-based Neuroinformatics and Personalized Human Brain Mapping platform. Self-motivation, attention to detail, innovative problem solving, strong analytical skills, articulate communication & creativity are the things that drive me to achieve great results. If you're looking to hire, collaborate, or require any assistance, leave me an email.
+                        I am a dedicated Machine Learning Engineer with a background in
+                        Computer Science, specializing in Python and PyTorch for developing robust
+                        machine learning models. Proficient in S QL for efficient data manipulation
+                        and analysis, I am committed to leveraging my technical skills to drive
+                        innovative solutions. My educational foundation and hands-on experience
+                        equip me to tackle complex challenges and contribute effectively to
+                        dynamic teams.
                     </p>
                     <ContactMe />
                 </div>

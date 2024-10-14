@@ -1,4 +1,5 @@
 import { IoIosArrowDown } from "react-icons/io";
+import { Icon } from '@iconify/react';
 
 export interface Skill {
     name : string;
@@ -9,10 +10,10 @@ export interface ISkillsCollection {
     title : string;
     yearsOfExperience : number;
     skills : Skill[];
+    icon : string;
 }
 
 export interface ISkillsList extends ISkillsCollection {
-    icon : React.ReactElement
     isOpen : boolean;
     onOpenClick : () => void;
 }
@@ -42,7 +43,7 @@ export function SkillsList(props : ISkillsList) {
         <div>
             <div className="flex gap-3 items-center mb-4" >
                 <div className="text-color-1-hover" >
-                    {props.icon}
+                    <Icon icon={(props.icon || "lucide:brain")} className="text-4xl text-color-1" />
                 </div>
                 <div className="flex items-center flex-grow" >
                     <div>

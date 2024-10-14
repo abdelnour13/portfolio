@@ -34,7 +34,8 @@
                     "name" : "Java",
                     "experience" : 90
                 }
-            ]
+            ],
+            "icon" : "streamline:programming-script-code-code-angle-programming-file-bracket"
         },
         {
             "title" : "AI & Data Science",
@@ -60,7 +61,8 @@
                     "name" : "Natural Language Processing",
                     "experience" : 85
                 }
-            ]
+            ],
+            "icon" : "lucide:brain"
         },
         {
             "title" : "Frontend Development",
@@ -86,7 +88,8 @@
                     "name" : "React",
                     "experience" : 90
                 }
-            ]
+            ],
+            "icon" : "icomoon-free:html-five2"
         },
         {
             "title" : "Backend Development",
@@ -112,7 +115,8 @@
                     "name" : "Fast API",
                     "experience" : 90
                 }
-            ]
+            ],
+            "icon" : "material-symbols:database"
         },
         {
             "title" : "Tools",
@@ -138,7 +142,8 @@
                     "name" : "Linux",
                     "experience" : 90
                 }
-            ]
+            ],
+            "icon" : "fa-solid:tools"
         }
     ],
     "experience" : {
