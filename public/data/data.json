@@ -5,8 +5,8 @@
         "twitter" : "https://x.com/AbdelnourF1372"
     },
     "images" : {
-        "hero" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/A_final.png",
-        "about" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/me.png"
+        "hero" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/A_final.jpg",
+        "about" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/me.jpg"
     },
     "cv" : {
         "download" : "https://github.com/abdelnour13/abdelnour13/blob/main/cv.pdf?raw=true",
