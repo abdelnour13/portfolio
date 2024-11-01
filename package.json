@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://abdelnour13.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -31,6 +32,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -55,6 +58,7 @@
   "devDependencies": {
     "@types/nodemailer": "^6.4.16",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4"
   }

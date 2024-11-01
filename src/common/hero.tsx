@@ -9,12 +9,10 @@ import { ContentContext } from "../context";
 
 const keywords = [
   "21",
-  "Artificial Intelligenc",
+  "Artificial Intelligence",
   "Data Science",
   "Software Development",
   "Full-Stack",
-  "Open Research",
-  "Freelance",
 ];
 
 export function Hero() {
