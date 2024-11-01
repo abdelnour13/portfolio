@@ -1,0 +1,215 @@
+{
+    "social" : {
+        "github" : "https://github.com/abdelnour13",
+        "linkedin" : "https://www.linkedin.com/in/fellah-abdelnour-57411a287/",
+        "twitter" : "https://x.com/AbdelnourF1372"
+    },
+    "images" : {
+        "hero" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/me.png",
+        "about" : "https://raw.githubusercontent.com/abdelnour13/portfolio/refs/heads/main/public/data/images/me.jpg"
+    },
+    "cv" : {
+        "download" : "https://github.com/abdelnour13/abdelnour13/blob/main/cv.pdf?raw=true",
+        "view" : "https://github.com/abdelnour13/abdelnour13/blob/main/cv.pdf"
+    },
+    "email" : "ab.fellah@esi-sba.dz",
+    "skills" : [
+        {
+            "title" : "Programming Languages",
+            "yearsOfExperience" : 4,
+            "skills" : [
+                {
+                    "name" : "Python",
+                    "experience" : 95
+                },
+                {
+                    "name" : "JavaScript/TypeScript",
+                    "experience" : 95
+                },
+                {
+                    "name" : "C/C++",
+                    "experience" : 90
+                },
+                {
+                    "name" : "Java",
+                    "experience" : 90
+                }
+            ],
+            "icon" : "streamline:programming-script-code-code-angle-programming-file-bracket"
+        },
+        {
+            "title" : "AI & Data Science",
+            "yearsOfExperience" : 1,
+            "skills" : [
+                {
+                    "name" : "PyTorch",
+                    "experience" : 95
+                },
+                {
+                    "name" : "sickit-learn",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Computer Vision",
+                    "experience" : 90
+                },
+                {
+                    "name" : "PySpark",
+                    "experience" : 90
+                },
+                {
+                    "name" : "Natural Language Processing",
+                    "experience" : 85
+                }
+            ],
+            "icon" : "lucide:brain"
+        },
+        {
+            "title" : "Frontend Development",
+            "yearsOfExperience" : 3,
+            "skills" : [
+                {
+                    "name" : "HTML",
+                    "experience" : 95
+                },
+                {
+                    "name" : "CSS",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Tailwind CSS",
+                    "experience" : 90
+                },
+                {
+                    "name" : "JavaScript",
+                    "experience" : 95
+                },
+                {
+                    "name" : "React",
+                    "experience" : 90
+                }
+            ],
+            "icon" : "icomoon-free:html-five2"
+        },
+        {
+            "title" : "Backend Development",
+            "yearsOfExperience" : 2,
+            "skills" : [
+                {
+                    "name" : "Node.js",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Express js",
+                    "experience" : 95
+                },
+                {
+                    "name" : "SQL",
+                    "experience" : 95
+                },
+                {
+                    "name" : "No-SQL Databases",
+                    "experience" : 90
+                },
+                {
+                    "name" : "Fast API",
+                    "experience" : 90
+                }
+            ],
+            "icon" : "material-symbols:database"
+        },
+        {
+            "title" : "Tools",
+            "yearsOfExperience" : 4,
+            "skills" : [
+                {
+                    "name" : "Git",
+                    "experience" : 95
+                },
+                {
+                    "name" : "GitHub",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Postman",
+                    "experience" : 95
+                },
+                {
+                    "name" : "VS Code",
+                    "experience" : 95
+                },
+                {
+                    "name" : "Linux",
+                    "experience" : 90
+                }
+            ],
+            "icon" : "fa-solid:tools"
+        }
+    ],
+    "experience" : {
+        "academic" : [
+            {
+                "title" : "Electrical engineering Baccalaureate Degree",
+                "at" : "Ahmed Boumehdi High School - Sidi Lakhdar,Mostaganem",
+                "link" : "/",
+                "from" : 2017,
+                "to" : 2020
+            },
+            {
+                "title" : "Master’s in Computer Science Engineering & Engineer Degree",
+                "at" : "Higher School of Computer Science - Sidi Bel Abbes (ESI-SBA)",
+                "link" : "https://www.esi-sba.dz/fr/",
+                "from" : 2022,
+                "to" : null
+            }
+        ],
+        "professional" : [
+            {
+                "title" : "Networking Intern",
+                "at" : "Algérie Télécom",
+                "link" : "https://github.com/abdelnour13/portfolio/blob/main/public/data/internships/algerie_telecom.pdf",
+                "from" : "03-09-2023",
+                "to" : "21-09-2023"
+            },
+            {
+                "title" : "Data Science Intern",
+                "at" : "Centre Anti-Cancer Cac - Sidi Bel Abbes",
+                "link" : "https://github.com/abdelnour13/portfolio/blob/main/public/data/internships/cac.pdf",
+                "from" : "Mars 2024",
+                "to" : "June 2024"
+            }
+        ]
+    },
+    "projects" : [
+        {
+            "title" : "AI System for Breast Cancer Diagnosis",
+            "description" : "This project, conducted in 2024, is a collaboration between our team and the Anti-Cancer Center of Sidi Bel Abbes (CAC). The objective of this project was to develop an AI system capable of diagnosing breast cancer through the classification of gigapixel hematoxylin and eosin (H&E) histopathological images (whole slide images). We used the BRCAS dataset for this purpose.",
+            "link" : "https://github.com/Devnetly/Breast-Cancer-Classification",
+            "picture" : "https://raw.githubusercontent.com/Devnetly/Breast-Cancer-Classification/refs/heads/main/docs/Report/figures/approach.png"
+        },
+        {
+            "title" : "Image Captioning with Transformer-Based Architecture",
+            "description" : "This project is part of a university course on NLP. The objective is to develop a model that can generate captions for images using a transformer-based architecture. We have utilized a DeiT for the encoder and a standard transformer decoder. The Flickr30k dataset was used for training.",
+            "link" : "https://github.com/Devnetly/image-captioning",
+            "picture" : "https://raw.githubusercontent.com/Devnetly/image-captioning/refs/heads/main/docs/figures/architecture-with-bg.png"
+        },
+        {
+            "title" : "Images Generation with Latent Diffusion models",
+            "description" : "In this project i implemented & trained latent diffusion model from scrach using PyTorch to generate images both unconditionally and conditional with different conditions such as : binary mask,color palette and attributes,the architecture was tested on the following datasets : Anime Faces dataset, Google cartoon faces and Bitmoji faces.",
+            "link" : "https://github.com/abdelnour13/images_generation_latent_diffusion_models",
+            "picture" : "https://raw.githubusercontent.com/abdelnour13/images_generation_latent_diffusion_models/refs/heads/main/demo/demo.png"
+        },
+        {
+            "title" : "Email Spam Classification using semi-supervised learning",
+            "description" : "This repository contains a machine learning model for detecting spam emails using Natural Language Processing techniques and Semi-supervised learning, such as Label Propagation, Label Spreading and Self-Learning. The goal is to create an effective and efficient spam detection system that can classify emails as spam or non-spam with high accuracy.",
+            "link" : "https://github.com/Devnetly/email-spam-classification",
+            "picture" : "https://raw.githubusercontent.com/Devnetly/email-spam-classification/refs/heads/main/demo.png"
+        },
+        {
+            "title" : "Snake AI With Deep-Q-Learning",
+            "description" : "This project implements a Snake AI using the Deep Q-Learning algorithm. The goal is to create an intelligent agent capable of playing the Snake game, making decisions based on its understanding of the game environment to maximize its score.",
+            "link" : "https://github.com/abdelnour13/Snake-AI-Deep-Q-Learning",
+            "picture" : "https://raw.githubusercontent.com/abdelnour13/Snake-AI-Deep-Q-Learning/refs/heads/main/demo/demo.png"
+        }
+    ]
+}
