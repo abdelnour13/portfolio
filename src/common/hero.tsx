@@ -32,7 +32,7 @@ export function Hero() {
       </div>
       <div className="flex justify-center max-w-2xl sm:mx-0 mx-4">
         <div className="flex sm:flex-row flex-col-reverse flex-grow gap-14">
-          <div className="sm:w-6/12">
+          <div className="sm:w-6/12 mr-8">
             <div className="[*&>*]:mb-3 sm:mb-16 mb-4">
               <h1 className="dark:text-color-2 text-color-3 sm:text-4xl text-2xl font-semibold">
                 Hi,i'm Abdelnour
@@ -51,7 +51,12 @@ export function Hero() {
             </div>
           </div>
           <div className="relative sm:w-6/12">
-            <svg
+            <img
+              src={content?.images.hero}
+              alt="hero"
+              className="rounded-3xl shadow-lg"
+            />
+            {/*<svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
               viewBox="174.22 132.64 268.63 230.74"
@@ -77,7 +82,7 @@ export function Hero() {
                 height="230.74"
                 clip-path="url(#clip-path)"
               />
-            </svg>
+            </svg>*/}
           </div>
         </div>
       </div>
